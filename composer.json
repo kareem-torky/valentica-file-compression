@@ -1,0 +1,26 @@
+{
+    "name": "valinteca/file-compression",
+    "description": "file compression library to handle zip and rar files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Valinteca\\FileCompression\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kareem-torky",
+            "email": "kareemmfouad.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Valinteca\\FileCompression\\ServiceProvider"
+            ]
+        }
+    }    
+}
